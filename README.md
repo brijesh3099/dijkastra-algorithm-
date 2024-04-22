@@ -1,10 +1,4 @@
-# dijkastra-algorithm
-
-Certainly! Here's a sample README.md content for your Internet and higher layer protocol project task:
-
----
-
-# Internet and Higher Layer Protocol Project
+# Internet and Higher Layer Protocol Project - dijkastra-algorithm
 
 This project implements a solution for finding the shortest path in a graph using Dijkstra's algorithm. The implementation is tailored for use in Internet and higher layer protocol development.
 
