@@ -1,19 +1,41 @@
-Dijkstra's Shortest Path Algorithm - Documentation
-Introduction:
-Dijkstra's algorithm serves as a widely-used technique for determining the shortest path between nodes within a graph, particularly in scenarios where all edge weights are non-negative. It functions by iteratively selecting the vertex with the smallest distance from the source vertex and updating the distances of its adjacent vertices. This iterative process persists until all vertices are visited.
+Certainly! Here's a documentation for your C program implementing Dijkstra's shortest path algorithm:
 
-Implementation Details:
-The program is implemented in C, employing a structure-based approach.
-Within the Graph structure, methods are provided for initializing the graph, computing shortest paths, and presenting results.
-Input is accepted in the form of an adjacency matrix, where graph[i][j] denotes the weight of the edge connecting vertices i and j.
-Dijkstra's algorithm is realized through the computeShortestPath function.
-The displayResults function outputs the shortest distances from the source vertex to all other vertices.
-Insights:
-Dijkstra's algorithm is categorized as a greedy algorithm, ensuring the shortest path from the source vertex to every other vertex in a graph.
-It manages a set of vertices for which the shortest distance from the source is already determined.
-The algorithm iteratively identifies the vertex with the smallest distance from the source among those not yet processed, updates the distances of its neighboring vertices, and includes it in the set of processed vertices.
-This process persists until all vertices are processed.
-Results:
-Upon execution with the provided graph, the program accurately computes the shortest distances from the source vertex to all other vertices.
-Conclusion:
-Dijkstra's algorithm stands as an effective means for identifying shortest paths within weighted graphs. Grasping its underlying principles and implementation nuances is pivotal for addressing various graph-related challenges.
+---
+
+# Dijkstra's Shortest Path Algorithm - Documentation
+
+## Introduction:
+
+This C program demonstrates Dijkstra's algorithm, a method widely used to find the shortest path between nodes in a graph, especially when all edge weights are non-negative. The program calculates the shortest path from a given source vertex to all other vertices in the graph.
+
+## Implementation Details:
+
+- **Language**: The program is implemented in C.
+- **Graph Representation**: The graph is represented using an adjacency matrix.
+- **Data Structures**: The program defines a structure `Graph` to store graph-related information.
+- **Memory Management**: Dynamic memory allocation is used to create and manage the graph structure.
+- **Functionality**: 
+    - `createGraph`: Dynamically allocates memory for the graph structure and initializes it.
+    - `displayResults`: Prints the shortest distances from the source vertex to all other vertices.
+    - `findMinDistance`: Finds the vertex with the minimum distance from the source among the vertices not yet included in the shortest path tree.
+    - `computeShortestPath`: Implements Dijkstra's algorithm to compute the shortest paths.
+- **Input**: The graph data and the source vertex are hardcoded into the program.
+- **Output**: The program displays the shortest distances from the source vertex to all other vertices.
+
+## Workflow:
+
+1. The program initializes the graph structure and populates it with the provided graph data.
+2. Dijkstra's algorithm is executed to compute the shortest paths from the source vertex to all other vertices.
+3. The computed shortest distances are displayed.
+
+## Example:
+
+For the provided graph data and source vertex, the program outputs the shortest distances from the source vertex to all other vertices.
+
+## Conclusion:
+
+Dijkstra's algorithm is an efficient method for finding shortest paths in graphs. This program provides a practical implementation of the algorithm, showcasing its utility in real-world scenarios.
+
+---
+
+Feel free to adjust or expand upon this documentation as needed for your project. It provides an overview of the program's functionality, implementation details, and usage.
