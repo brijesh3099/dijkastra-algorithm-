@@ -35,3 +35,8 @@ The program takes input in the form of a weighted graph, represented as an adjac
 ## Output
 
 Upon execution, the program computes the shortest path from the given source vertex to all other vertices in the graph. It outputs the distance from the source vertex to each destination vertex.
+
+![Screenshot 2024-04-21 220536](https://github.com/brijesh3099/dijkastra-algorithm-/assets/83527078/b7573c8e-f896-4cf3-ad28-6fe54012fc38)
+
+
+
